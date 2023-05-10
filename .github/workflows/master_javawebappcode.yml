@@ -50,4 +50,4 @@ jobs:
           app-name: 'JavaWebAppCode'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_808F7B560C28404A8E002065F928E8D1 }}
-          package: '*jar.jar'
+          package: 'myjarfile.jar'
