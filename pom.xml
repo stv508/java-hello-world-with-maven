@@ -6,6 +6,9 @@
     <artifactId>jb-hello-world-maven</artifactId>
     <packaging>jar</packaging>
     <version>0.2.0</version>
+    <configuration>
+            <finalName>myjarfile</finalName>
+    </configuration>
 
     <!-- tag::joda[] -->
      <properties>
