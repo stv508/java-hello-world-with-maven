@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Build with Maven
-        working-directory: bytesproject/src/main/java/com/bytes/
+        working-directory: bytesproject/
         run: mvn clean install
 
       - name: Upload artifact for deployment job
